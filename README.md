@@ -2,9 +2,9 @@
 
 This is a basic WAMP stack environment built using Docker Compose. It consists following:
 
-* Apache
-* MySQL
-* PHP
+* Apache v2.4
+* MySQL v8
+* PHP v7.2
 * phpMyAdmin
 
 ## Installation
@@ -75,8 +75,6 @@ docker exec -it my-webserver /bin/bash
 ```
 
 ## PHP
-
-The installed version of PHP is 7.2
 
 #### Extensions
 
