@@ -9,13 +9,13 @@ This is a basic WAMP stack environment built using Docker Compose. It consists f
 
 ## Installation
 
-Clone this repository on your local computer. Run the `docker-compose up -d`.
+Clone this repository on your local computer. Run the `docker-compose up`.
 
 ```shell
 git clone https://github.com/solodyagin/docker-compose-wamp.git
 cd docker-compose-wamp/
 git fetch --all
-docker-compose up -d
+docker-compose up
 ```
 
 Your WAMP stack is now ready!! You can access it via `http://localhost`.
