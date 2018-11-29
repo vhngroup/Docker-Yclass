@@ -1,4 +1,4 @@
-# LAMP stack built with Docker Compose
+# WAMP stack built with Docker Compose
 
 This is a basic WAMP stack environment built using Docker Compose. It consists following:
 
