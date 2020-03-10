@@ -44,6 +44,8 @@ services:
       - '8080:80'
     volumes:
       - /sessions
+      - /public_html:/usr/local/apache2/htdocs
+      - /tmp:usr/local/tmp
     networks:
       - web-db-net
   # adminer:
